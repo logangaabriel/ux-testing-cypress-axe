@@ -8,10 +8,10 @@ To get started with running the tests locally, follow these steps:
 You can clone the repository to your local machine using Git. Open your terminal or command prompt and run the following command:
 
 ```bash
-git clone https://github.com/gaabrielLogan/ux-testing-cypress-axe.git
+git clone https://github.com/logangaabriel/ux-testing-cypress-axe.git
 ```
 
-Replace `https://github.com/gaabrielLogan/ux-testing-cypress-axe.git` with the URL of the GitHub repository. You can find this URL by clicking on the "Code" button on the repository's GitHub page.
+Replace `https://github.com/logangaabriel/ux-testing-cypress-axe.git` with the URL of the GitHub repository. You can find this URL by clicking on the "Code" button on the repository's GitHub page.
 
 ### 2. Install Dependencies
 
