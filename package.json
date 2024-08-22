@@ -1,0 +1,19 @@
+{
+  "name": "form-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.10.0"
+  },
+  "devDependencies": {
+    "axe-core": "^4.9.1",
+    "cypress-axe": "^1.5.0"
+  }
+}

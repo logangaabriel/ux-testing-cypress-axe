@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Formulário de Contato</h1>
+        <form id="contact-form" aria-labelledby="form-title">
+            <fieldset>
+                <legend id="form-title">Entre em Contato Conosco</legend>
+                
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                
+                <label for="phone">Telefone <span class="optional">(opcional)</span>:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+
+                <button type="submit" id="submit-button" disabled aria-label="Enviar">Enviar</button>
+
+            </fieldset>
+        </form>
+        <div id="feedback" class="hidden" role="alert"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
